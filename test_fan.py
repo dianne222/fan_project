@@ -1,11 +1,12 @@
 from fan import Fan
 
-def display_fan():
+fan = Fan()
+def display_fan(fan):
     print("Speed:", fan.get_speed())
     print("Radius:", fan.get_radius())
     print("Color:", fan.get_color())
     print("On:", fan.get_on())
 
-fan = Fan()
+fan1 = Fan(Fan.FAST, 10, "yellow", True)
 
-display_fan()
+display_fan(fan)
