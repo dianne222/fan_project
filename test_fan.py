@@ -10,4 +10,8 @@ def display_fan(fan):
 fan1 = Fan(Fan.FAST, 10, "yellow", True)
 fan2 = Fan(Fan.MEDIUM, 5, "blue", False)
 
-display_fan(fan)
+print("FAN 1")
+display_fan(fan1)
+print("")
+print("FAN 2")
+display_fan(fan2)
